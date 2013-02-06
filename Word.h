@@ -7,7 +7,7 @@ class Word
     protected:        
         vector<int> xPosition;
         vector<int> yPosition;
-        vector<int> puzzle_word;
+        vector<int> lenght;
         vector<int> order; 
     
     public:
@@ -16,7 +16,7 @@ class Word
 
 Word::Word()
 {
-    puzzle_word.clear();
+    lenght.clear();
     xPosition.clear();
     yPosition.clear();
     order.clear();
